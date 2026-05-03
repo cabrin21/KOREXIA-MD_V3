@@ -746,7 +746,7 @@ npm run test:watch      # Watch mode during development
 
 ## 📄 License
 
-[MIT License](LICENSE) · Made with ❤️ by **Qasim Ali** · [GlobalTechInfo](https://github.com/GlobalTechInfo)
+[MIT License](LICENSE) · Made with ❤️ by **Killua nsala** · [nsala](https://github.com/cabrino21)
 
 <div align="center">
 
