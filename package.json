@@ -34,16 +34,16 @@
     "nodejs-bot",
     "javascript-bot"
   ],
-  "homepage": "https://github.com/GlobalTechInfo/MEGA-MD",
+  "homepage": "https://github.com/cabrin21/KOREXIA-MD_V3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GlobalTechInfo/MEGA-MD.git"
+    "url": "git+https://github.com/cabrin21/KOREXIA-MD_V3.git"
   },
   "bugs": {
-    "url": "https://github.com/GlobalTechInfo/MEGA-MD/issues"
+    "url": "https://github.com/cabrin21/KOREXIA-MD_V3/issues"
   },
   "license": "MIT",
-  "author": "Qasim Ali",
+  "author": "Nsala",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
