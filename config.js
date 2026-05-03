@@ -3,7 +3,7 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 const config = {
     // Bot Identity
     botName: process.env.BOT_NAME || 'KØREXIA-MD',
-    botOwner: process.env.BOT_OWNER || 'Qasim Ali',
+    botOwner: process.env.BOT_OWNER || 'Nsala',
     ownerNumber: process.env.OWNER_NUMBER || '50931221850',
     author: process.env.AUTHOR || 'Nsala',
     packname: process.env.PACKNAME || 'KØREXIA-MD',
@@ -16,8 +16,8 @@ const config = {
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbCHB1eDjiOUGG4OCS2t',
-    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
-    ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
+    updateZipUrl: process.env.UPDATE_URL || 'https://github.com/cabrin21/KOREXIA-MD_V3/archive/refs/heads/main.zip',
+    ytChannel: process.env.YT_CHANNEL || 'Nsala',
     // Session
     sessionId: process.env.SESSION_ID || '',
     pairingNumber: process.env.PAIRING_NUMBER || '',
