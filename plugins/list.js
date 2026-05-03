@@ -1,15 +1,15 @@
 import config from '../config.js';
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Qasim Ali                                *
+ *                     Developed By Nsala killua                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/GlobalTechInfo                         *
- *  ▶️  YouTube  : https://youtube.com/@GlobalTechInfo                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07     *
+ *  🌐  GitHub   : https://github.com/cabrino21                        *
+ *  ▶️  YouTube  : https://youtube.com/@killuadev                       *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029VbCHB1eDjiOUGG4OCS2t     *
  *                                                                           *
  *    © 2026 GlobalTechInfo. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the MEGA-MD Project.                 *
+ *    Description: This file is part of the KOREXIA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
@@ -30,9 +30,9 @@ const menuStyles = [
     {
         render({ _title, info, categories, prefix }) {
             let t = `╭━━『 *KØREXIA BOT* 』━⬣\n`;
-            t += `┃ ✨ *Bot: ${info.bot}*\n`;
-            t += `┃ 🔧 *Prefix: ${info.prefix}*\n`;
-            t += `┃ 📦 *Plugin: ${info.total}*\n`;
+            t += `┃ 🧃 *Bot: ${info.bot}*\n`;
+            t += `┃ 🧊 *Prefix: ${info.prefix}*\n`;
+            t += `┃ 🌹 *Plugin: ${info.total}*\n`;
             t += `┃ 💎 *Version: ${info.version}*\n`;
             t += `┃ ⏰ *Time: ${info.time}*\n`;
             for (const [cat, cmds] of categories) {
@@ -47,10 +47,10 @@ const menuStyles = [
     {
         render({ _title, info, categories, prefix }) {
             let t = `◈╭─❍「 *KØREXIA BOT* 」❍\n`;
-            t += `◈├• 🌟 *Bot: ${info.bot}*\n`;
-            t += `◈├• ⚙️ *Prefix: ${info.prefix}*\n`;
-            t += `◈├• 🍫 *Plugins: ${info.total}*\n`;
-            t += `◈├• 💎 *Version: ${info.version}*\n`;
+            t += `◈├• 💲 *Bot: ${info.bot}*\n`;
+            t += `◈├• 💲 *Prefix: ${info.prefix}*\n`;
+            t += `◈├• 💲 *Plugins: ${info.total}*\n`;
+            t += `◈├• 💲 *Version: ${info.version}*\n`;
             t += `◈├• ⏰ *Time: ${info.time}*\n`;
             for (const [cat, cmds] of categories) {
                 t += `◈├─❍「 *${cat.toUpperCase()}* 」❍\n`;
@@ -115,11 +115,11 @@ const menuStyles = [
     {
         render({ _title, info, categories, prefix }) {
             let t = `◆━━━ *KØREXIA BOT* ━━━◆\n`;
-            t += `┃ ¤ *Bot: ${info.bot}*\n`;
-            t += `┃ ¤ *Prefixes: ${info.prefix}*\n`;
-            t += `┃ ¤ *Plugins: ${info.total}*\n`;
-            t += `┃ ¤ *Version: ${info.version}*\n`;
-            t += `┃ ¤ *Time: ${info.time}*\n`;
+            t += `┃ ⬡ *Bot: ${info.bot}*\n`;
+            t += `┃ ⬡ *Prefixes: ${info.prefix}*\n`;
+            t += `┃ ⬡ *Plugins: ${info.total}*\n`;
+            t += `┃ ⬡ *Version: ${info.version}*\n`;
+            t += `┃ ⬡ *Time: ${info.time}*\n`;
             for (const [cat, cmds] of categories) {
                 t += `┃━━ *${cat.toUpperCase()}* ━━◆◆\n`;
                 for (const c of cmds)
@@ -131,7 +131,7 @@ const menuStyles = [
     },
     {
         render({ _title, info, categories, prefix }) {
-            let t = `╭───⬣ *KØREXIA BOT* ──⬣\n`;
+            let t = `╭───⬡ *KØREXIA BOT* ──⬡\n`;
             t += ` | ⬡ *Bot: ${info.bot}*\n`;
             t += ` | ⬡ *Prefixes: ${info.prefix}*\n`;
             t += ` | ⬡ *Plugins: ${info.total}*\n`;
@@ -150,7 +150,7 @@ const menuStyles = [
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 export default {
     command: 'menu',
-    aliases: ['help', 'commands', 'h', 'list'],
+    aliases: ['help', 'commands', 'nsala', 'list'],
     category: 'general',
     description: 'Show all commands',
     usage: '.menu [command]',
@@ -171,7 +171,7 @@ export default {
                     ...channelInfo
                 }, { quoted: message });
             }
-            const text = `╭━━━━━━━━━━━━━━⬣
+            const text = `╭━━━━━━━━━━━━━━⬡
 ┃ 📌 *COMMAND INFO*
 ┃
 ┃ ⚡ *Command:* ${prefix}${cmd.command}
@@ -180,7 +180,7 @@ export default {
 ┃ 🏷️ *Category:* ${cmd.category || 'misc'}
 ┃ 🔖 *Aliases:* ${cmd.aliases?.length ? cmd.aliases.map((a) => prefix + a).join(', ') : 'None'}
 ┃
-╰━━━━━━━━━━━━━━⬣`;
+╰━━━━━━━━━━━━━━⬡`;
             if (fs.existsSync(imagePath)) {
                 return sock.sendMessage(chatId, {
                     image: { url: imagePath },
@@ -217,15 +217,15 @@ export default {
 };
 /*****************************************************************************
  *                                                                           *
- *                     Developed By Qasim Ali                                *
+ *                     Developed By nsala killua                               *
  *                                                                           *
- *  🌐  GitHub   : https://github.com/GlobalTechInfo                         *
- *  ▶️  YouTube  : https://youtube.com/@GlobalTechInfo                       *
- *  💬  WhatsApp : https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07     *
+ *  🌐  GitHub   : https://github.com/cabrino21                         *
+ *  ▶️  YouTube  : https://youtube.com/@killuadev                      *
+ *  💬  WhatsApp : https://whatsapp.com/channel/0029VbCHB1eDjiOUGG4OCS2t    *
  *                                                                           *
  *    © 2026 GlobalTechInfo. All rights reserved.                            *
  *                                                                           *
- *    Description: This file is part of the MEGA-MD Project.                 *
+ *    Description: This file is part of the KOREXIA-MD Project.                 *
  *                 Unauthorized copying or distribution is prohibited.       *
  *                                                                           *
  *****************************************************************************/
