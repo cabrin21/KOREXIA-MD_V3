@@ -1,4 +1,4 @@
-FROM quay.io/nsalacabrino/korexia-md:latest
+FROM quay.io/qasimtech/mega-md:latest
 
 WORKDIR /root/korexia-md
 
