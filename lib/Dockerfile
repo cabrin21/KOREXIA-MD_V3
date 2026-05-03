@@ -1,6 +1,6 @@
 FROM quay.io/qasimtech/mega-md:latest
 
-WORKDIR /root/mega-md
+WORKDIR /root/korexia-md
 
 COPY package.json package-lock.json ./
 
