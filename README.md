@@ -8,11 +8,11 @@
 
 <br/>
 
-[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=for-the-badge&logo=github)](https://github.com/GlobalTechInfo/MEGA-MD)
+[![Version](https://img.shields.io/badge/Version-3.0.0-blue?style=for-the-badge&logo=github)](https://github.com/cabrin21/KOREXIA-MD_V3)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![WhatsApp](https://img.shields.io/badge/Baileys-7.x-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
-[![Stars](https://img.shields.io/github/stars/GlobalTechInfo/MEGA-MD?style=for-the-badge&logo=starship&color=gold)](https://github.com/GlobalTechInfo/MEGA-MD/stargazers)
-[![Forks](https://img.shields.io/github/forks/GlobalTechInfo/MEGA-MD?style=for-the-badge&logo=git&color=orange)](https://github.com/GlobalTechInfo/MEGA-MD/network/members)
+[![Stars](https://img.shields.io/github/stars/cabrin21/KOREXIA-MD_V3?style=for-the-badge&logo=starship&color=gold)](https://github.com/cabrin21/KOREXIA-MD_V3/stargazers)
+[![Forks](https://img.shields.io/github/forks/cabrin21/KOREXIA-MD_V3?style=for-the-badge&logo=git&color=orange)](https://github.com/cabrin21/KOREXIA-MD_V3/network/members)
 
 <br/>
 
@@ -112,8 +112,8 @@
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/GlobalTechInfo/MEGA-MD.git
-cd MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3.git
+cd KOREXIA-MD
 npm install
 cp sample.env .env
 # Edit .env → add SESSION_ID and OWNER_NUMBER
@@ -128,7 +128,7 @@ npm start
 
 ### Step 1 — Open the session generator
 
-> 🌐 **https://mega-pairing.onrender.com**
+> 🌐 **https://korexia-pairing.onrender.com**
 
 ### Step 2 — Generate your session
 
@@ -216,8 +216,8 @@ DB_URL=                          # SQLite: ./data/baileys.db
 
 ```bash
 # 1. Clone
-git clone https://github.com/GlobalTechInfo/MEGA-MD.git
-cd MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3.git
+cd KOREXIA-MD
 
 # 2. Install dependencies
 npm install
@@ -265,8 +265,8 @@ apt update && apt upgrade -y
 apt install -y git ffmpeg build-essential libvips-dev webp nodejs npm curl
 
 # Clone and setup
-git clone https://github.com/GlobalTechInfo/MEGA-MD.git
-cd MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3.git
+cd KOREXIA-MD
 npm install
 cp sample.env .env && nano .env
 npm start
@@ -303,8 +303,8 @@ sudo bash <(curl -fsSL https://raw.githubusercontent.com/GlobalTechInfo/MEGA-MD/
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs git ffmpeg libvips-dev libwebp-dev build-essential
 
-git clone https://github.com/GlobalTechInfo/MEGA-MD.git
-cd MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3.git
+cd KOREXIA-MD
 npm install
 cp sample.env .env && nano .env
 
@@ -319,8 +319,8 @@ pm2 save && pm2 startup
 | Command | Description |
 |---|---|
 | `pm2 logs mega-md` | Live logs |
-| `pm2 restart mega-md` | Restart |
-| `pm2 stop mega-md` | Stop |
+| `pm2 restart korexia-md` | Restart |
+| `pm2 stop korexia-md` | Stop |
 | `pm2 status` | Status overview |
 
 ---
@@ -335,8 +335,8 @@ sudo apt update
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs git ffmpeg libvips-dev libwebp-dev build-essential
 
-git clone https://github.com/GlobalTechInfo/MEGA-MD.git
-cd MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3.git
+cd KOREXIA-MD
 npm install
 cp sample.env .env && nano .env
 npm start
@@ -351,13 +351,13 @@ npm start
 > The repo includes pre-configured `.replit` and `replit.nix`.
 
 1. Go to [replit.com](https://replit.com) → **Create Repl** → **Import from GitHub**
-2. Paste: `https://github.com/GlobalTechInfo/MEGA-MD`
+2. Paste: `https://github.com/cabrin21/KOREXIA-MD_V3`
 3. Open **Secrets** tab (🔒) and add:
 
    | Key | Value |
    |---|---|
-   | `SESSION_ID` | `GlobalTechInfo/MEGA-MD_your_gist_id` |
-   | `OWNER_NUMBER` | `923001234567` |
+   | `SESSION_ID` | `Nsala/KOREXIA-MD_your_gist_id` |
+   | `OWNER_NUMBER` | `50931221850` |
 
 4. Click **Run**
 
@@ -388,8 +388,8 @@ heroku login
 heroku create your-bot-name
 heroku stack:set container
 
-heroku config:set SESSION_ID=GlobalTechInfo/MEGA-MD_your_gist_id
-heroku config:set OWNER_NUMBER=923001234567
+heroku config:set SESSION_ID=Nsala/KOREXIA-MD_your_gist_id
+heroku config:set OWNER_NUMBER=50931221850
 heroku config:set MONGO_URL=your_mongodb_url   # Recommended
 
 git push heroku main
@@ -434,8 +434,8 @@ heroku logs --tail
 
    | Key | Value |
    |---|---|
-   | `SESSION_ID` | `GlobalTechInfo/MEGA-MD_your_gist_id` |
-   | `OWNER_NUMBER` | `923001234567` |
+   | `SESSION_ID` | `Nsala/KOREXIA-MD_your_gist_id` |
+   | `OWNER_NUMBER` | `50931221850` |
 
 5. Railway auto-builds via `Dockerfile` and deploys
 
@@ -471,8 +471,8 @@ curl -L https://fly.io/install.sh | sh
 fly auth login
 
 fly launch --no-deploy
-fly secrets set SESSION_ID=GlobalTechInfo/MEGA-MD_your_gist_id
-fly secrets set OWNER_NUMBER=923001234567
+fly secrets set SESSION_ID=Nsala/KOREXIA-MD_your_gist_id
+fly secrets set OWNER_NUMBER=50931221850
 fly deploy
 
 fly logs   # View logs
@@ -494,8 +494,8 @@ docker build -t mega-md .
 
 # Run
 docker run -d \
-  -e SESSION_ID=GlobalTechInfo/MEGA-MD_your_gist_id \
-  -e OWNER_NUMBER=923001234567 \
+  -e SESSION_ID=Nsala/KOREXIA-MD_your_gist_id \
+  -e OWNER_NUMBER=50931221850 \
   -p 5000:5000 \
   --name mega-md \
   mega-md
@@ -563,10 +563,10 @@ DB_URL=./data/baileys.db
 |---|---|---|---|
 | `SESSION_ID` | ✅ *one of* | — | From mega-pairing.onrender.com |
 | `PAIRING_NUMBER` | ✅ *one of* | — | Phone number for terminal pairing |
-| `OWNER_NUMBER` | ✅ | `923051391007` | Your number, no `+` |
-| `BOT_NAME` | ❌ | `MEGA-MD` | Bot display name |
-| `BOT_OWNER` | ❌ | `Qasim Ali` | Owner display name |
-| `PACKNAME` | ❌ | `MEGA-MD` | Sticker pack name |
+| `OWNER_NUMBER` | ✅ | `50931221850` | Your number, no `+` |
+| `BOT_NAME` | ❌ | `KOREXIA-MD` | Bot display name |
+| `BOT_OWNER` | ❌ | `KILLUA` | Owner display name |
+| `PACKNAME` | ❌ | `KOREXIA-MD` | Sticker pack name |
 | `PREFIXES` | ❌ | `.,!,/,#` | Comma-separated prefixes |
 | `COMMAND_MODE` | ❌ | `public` | `public` or `private` |
 | `TIMEZONE` | ❌ | `Asia/Karachi` | Your timezone |
@@ -649,7 +649,7 @@ export default {
 ### Bot not connecting
 
 > [!IMPORTANT]
-> - Verify `SESSION_ID` starts with `GlobalTechInfo/MEGA-MD_`
+> - Verify `SESSION_ID` starts with `Nsala/KOREXIA-MD_`
 > - If using `PAIRING_NUMBER`, link within 60 seconds of the code appearing
 > - Reset session and reconnect: `npm run reset-session && npm start`
 
@@ -729,9 +729,9 @@ npm run test:watch      # Watch mode during development
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-FF0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Global_TechInfo)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07)
-[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GlobalTechInfo/MEGA-MD/issues)
+[![Telegram](https://img.shields.io/badge/Telegram-FF0000?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/cabrinox)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp_Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VbCHB1eDjiOUGG4OCS2t)
+[![GitHub Issues](https://img.shields.io/badge/GitHub_Issues-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cabrin21/KOREXIA-MD_V3/issues)
 
 </div>
 
