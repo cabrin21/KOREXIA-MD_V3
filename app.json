@@ -2,7 +2,7 @@
   "name": "korexia-md",
   "description": "High performance multi-device WhatsApp bot",
   "keywords": ["whatsapp-bot", "baileys", "mega-md"],
-  "repository": "https://github.com/GlobalTechInfo/MEGA-MD",
+  "repository": "https://github.com/cabrin21/KOREXIA-MD_V3",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -13,7 +13,7 @@
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number with country code (e.g. 50931221850)",
       "required": true,
-      "value": "923000000000"
+      "value": "509000000000"
     },
     "MONGO_URL": {
       "description": "MongoDB URL for persistent storage (recommended for Heroku)",
