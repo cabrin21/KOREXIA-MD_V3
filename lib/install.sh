@@ -27,7 +27,7 @@ echo "✅ Node.js $(node -v) installed"
 
 # Clone repo
 echo "📥 Cloning KØREXIA-MD..."
-git clone https://github.com/GlobalTechInfo/MEGA-MD /root/MEGA-MD
+git clone https://github.com/cabrin21/KOREXIA-MD_V3 /root/KOREXIA-MD
 cd /root/KØREXIA-MD
 
 # Install npm packages
